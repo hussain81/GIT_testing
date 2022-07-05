@@ -1,0 +1,77 @@
+html {
+    position:relative;
+    min-height:100%;
+}
+/***********vertical icon bar*************************/
+.search_bar {
+    width:90px;
+    background: #999;
+}
+
+.vertical_icon_bar a {
+    display:block;
+    text-align:center;
+    padding: 10px;
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:white;
+    font-size:36px;
+}
+
+.vertical_icon_bar a:hover {
+    background-color:#000;
+}
+
+.vertical_icon_bar a:active {
+    background-color: #04aa6d;;
+}
+/***********horizontal icon bar*************************/
+.horizontal_icon_bar {
+    width:30%;
+    background: #999;
+    overflow:auto;
+}
+
+.horizontal_icon_bar a {
+    float:left;
+    display:block;
+    width:15%;
+    text-align:center;
+    padding: 10px;
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:white;
+    font-size:36px;
+}
+
+.horizontal_icon_bar a:hover {
+    background-color:#000;
+}
+
+.horizontal_icon_bar a:active {
+    background-color: #04aa6d;;
+}
+.horizontal_icon_bar a:visited {
+    background-color: #aa4f044b;;
+}
+/***********vertical icon bar to the right*************************/
+.vertical_icon_bar_right {
+    width:90px;
+    background: #999;
+    float:right;
+}
+
+.vertical_icon_bar_right a {
+    display:block;
+    text-align:center;
+    padding: 10px;
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:white;
+    font-size:36px;
+}
+
+.vertical_icon_bar_right a:hover {
+    background-color:#000;
+}
+
+.vertical_icon_bar_right a:active {
+    background-color: #04aa6d;
+}

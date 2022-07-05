@@ -1,0 +1,84 @@
+html {
+    position:relative;
+    min-height:100%;
+}
+* {
+    box-sizing: border-box;
+}
+/***********vertical icon bar*************************/
+.search_top {
+    width:100%;
+    background-color: #999;
+    overflow:hidden;
+
+}
+
+.search_top input[type=text] {
+    float:right;
+    padding:20px;
+    margin:20px;
+    border:none;
+    font-size:17px;
+}
+
+.search_top a {
+    color:black;
+    text-align:center;
+    text-decoration:none;
+}
+/* This is making the bar where the input will be located*/
+
+.search_left {
+    width:100%;
+    background-color: grey;
+    overflow:hidden;
+    height:50px;
+
+}
+/* height and width of input and button should work together to be next to each other*/
+.search_left input[type=text] {
+    float:left;
+    width:30%; /*size of the search box*/
+    height:30px;
+    margin-left:10%;
+    margin-top:10px;
+    padding-left:10px; /* positions the input text away from left border */    
+    /*border-radius:20px;*/
+    border:solid;
+    border-color:darkgrey;
+    font-size:17px;
+}
+.search_left button {
+    float:left;
+    width:10%;
+    height:30px;
+    margin-top:10px;
+    margin-right:50%;
+    background-color: white;
+    color:grey;
+    font-size: 17px;
+    border:solid;
+    border-color:darkgray;
+    border-left:none;
+    cursor:pointer;
+}
+
+.search_center {
+    width:100%;
+    background-color: #999;
+    overflow:hidden;
+    height:40px;
+
+}
+
+.search_center input[type=text] {
+    float:left;
+    width:400px; /*size of the search box*/
+    height:30px;
+    padding-left:20px; /* positions the input text away from left border */
+    margin-left:400px;
+    margin-right:400px;
+    border-radius:20px;
+    border-color:white;
+    font-size:17px;
+}

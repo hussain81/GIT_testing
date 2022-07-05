@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="Forms.css">
+</head>
+
+<body>
+<!-- This is for username password or first name and last name without css-->
+<!--<form action="/action_page.php"></form>   must be there to submit the information <form> to the action page for further processing-->
+<!--<form action="/action_page.php" target="_blank"></form>   target will give the result*********can be on current window, new window and so on-->
+<!-- other attributes***********autocomplete**********method****novalidate-->
+    <form>
+    <label name="fname"> First name</label> <br>
+    <input type="text" id="fname" name="fname"> <br> <!-- name attributes must be there to be submitted-->
+    <label name="lname"> Last name</label> <br>
+    <input type="text" id="lname" name="lname"> <br><br>
+    <input type="submit">
+</form>
+
+<form>
+    <label name="uname"> User name</label> <br>
+    <input type="text" id="uname" name="uname"> <br>
+    <label name="passcode"> Password</label> <br>
+    <input type="text" id="passcode" name="passcode"> <br>
+
+</form>
+<!-- ************Radio button*******No CSS file******** -->
+<form>
+    <input type="radio" id="CSS" name="fav_lang"> 
+    <label name="CSS"> CSS </label> <br>
+    <input type="radio" id="html" name="fav_lang">
+    <label name="html"> HTML</label> <br>
+    <input type="radio" id="js" name="fav_lang">
+    <label name="html"> JavaScript</label> <br>
+</form>
+
+<!-- ************Checkboxes***all that apply****No CSS file******** -->
+<form>
+    <input type="checkbox" id="CSS" name="fav_lang"> 
+    <label name="CSS"> CSS </label> <br>
+    <input type="checkbox" id="html" name="fav_lang">
+    <label name="html"> HTML</label> <br>
+    <input type="checkbox" id="js" name="fav_lang">
+    <label name="html"> JavaScript</label> <br>
+</form>
+
+<!-- ************list of predefined options in a select menu******** An input can be readonly*****-->
+
+<form action="/action_page.php">
+
+    <input list="country" name="country">
+    <datalist id="country">
+        <option value="Albania">
+        <option value="Bangladesh">
+        <option value="Colombia">
+        <option value="USA">  
+    </datalist>
+    <input type="submit">
+<!-- all different types of input-->
+    <input type="reset">
+    <input type="button">
+<input type="color">
+<input type="date">
+<input type="email">
+<input type="datetime-local">
+<input type="file">
+<input type="image">
+<input type="month">
+
+<input type="number">
+<input type="password">
+<!--
+
+<input type="hidden">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+-->
+</form>
+
+</body>
+
+
+
+
+
+
+</html>
